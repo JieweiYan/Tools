@@ -22,8 +22,8 @@ taskmanager.memory.managed.fraction: 0.23
 jobmanager.rpc.address: 10.10.101.25
 jobmanager.rpc.port: 6123
 jobmanager.memory.process.size: 4096M
-taskmanager.numberOfTaskSlots: 2
-parallelism.default: 2
+taskmanager.numberOfTaskSlots: 8
+parallelism.default: 16
 io.tmp.dirs: /tmp
 #==============================================================================
 # JVM
